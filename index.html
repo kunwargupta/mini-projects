@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/src/output.css">
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<body class="bg-white dark:bg-black grid place-content-center w-screen h-screen gap-8 font-font-1">
+    <h1 class="text-3xl font-medium dark:text-white" >Modern Calculator</h1>
+    <div id="container">
+        <div id="output-screen">
+            <input class=" px-1 mb-8 w-72 h-20 rounded-lg outline-none border border-slate-400 text-3xl text-end" type="text" name="" id="">
+        </div>
+        <div id="input-screen" class="grid grid-cols-4 gap-4">
+            <button id="btn" class="font-medium text-2xl px-2 py-2 bg-slate-200 rounded-full ">AC</button>
+            <button id="btn" class="font-medium text-2xl px-2 py-2 bg-slate-200 rounded-full ">( )</button>
+            <button id="btn" class="font-medium text-2xl px-2 py-2 bg-slate-200 rounded-full ">%</button>
+            <button id="btn" class="font-medium text-2xl bg-yellow-400 p-2 rounded-full text-white ">/</button>
+            <button id="btn" class="font-medium text-2xl bg-slate-800 p-2 rounded-full text-white dark:bg-white dark:text-black ">7</button>
+            <button id="btn" class="font-medium text-2xl bg-slate-800 p-2 rounded-full text-white dark:bg-white dark:text-black ">8</button>
+            <button id="btn" class="font-medium text-2xl bg-slate-800 p-2 rounded-full text-white dark:bg-white dark:text-black ">9</button>
+            <button id="btn" class="font-medium text-2xl bg-yellow-400 p-2 rounded-full text-white ">X</button>
+            <button id="btn" class="font-medium text-2xl bg-slate-800 p-2 rounded-full text-white dark:bg-white dark:text-black ">4</button>
+            <button id="btn" class="font-medium text-2xl bg-slate-800 p-2 rounded-full text-white dark:bg-white dark:text-black ">5</button>
+            <button id="btn" class="font-medium text-2xl bg-slate-800 p-2 rounded-full text-white dark:bg-white dark:text-black ">6</button>
+            <button id="btn" class="font-medium text-2xl bg-yellow-400 p-2 rounded-full text-white ">-</button> 
+            <button id="btn" class="font-medium text-2xl bg-slate-800 p-2 rounded-full text-white dark:bg-white dark:text-black ">1</button>
+            <button id="btn" class="font-medium text-2xl bg-slate-800 p-2 rounded-full text-white dark:bg-white dark:text-black ">2</button>          
+            <button id="btn" class="font-medium text-2xl bg-slate-800 p-2 rounded-full text-white dark:bg-white dark:text-black ">3</button>
+            <button id="btn" class="font-medium text-2xl bg-yellow-400 p-2 rounded-full text-white ">+</button>
+            <button id="btn" class="font-medium text-2xl bg-slate-800 py-2 px-4 rounded-full text-white dark:bg-white dark:text-black">0</button>
+            <button id="btn" class="font-medium text-2xl bg-slate-800 p-2 rounded-full text-white dark:bg-white dark:text-black ">.</button>
+            <button id="btn" class="font-medium text-2xl bg-slate-800 py-2 px-4 rounded-full text-white dark:bg-white dark:text-black flex justify-center items-center"><span class="material-symbols-outlined">
+                backspace
+                </span></button>
+            <button id="btn" class="font-medium text-2xl bg-yellow-400 p-2 rounded-full text-white ">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
